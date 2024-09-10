@@ -1,0 +1,213 @@
+/* Configurações globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5fa; /* Cor de fundo neutra */
+    color: #333; /* Texto escuro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #7b4dff; /* Roxo forte */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos da Home */
+  #hero {
+    background-color: #e0e0fc; /* Roxo claro */
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    color: #7b4dff; /* Roxo forte */
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #7b4dff; /* Roxo forte */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6740cc;
+    transform: scale(1.05);
+  }
+  
+  /* Estilos da seção de recursos */
+  #recursos {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #recursos h2 {
+    color: #7b4dff; /* Roxo forte */
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .feature-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .feature {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .feature h3 {
+    color: #7b4dff; /* Roxo forte */
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    color: #333;
+  }
+  
+  /* Call to Action */
+  #call-to-action {
+    background-color: #7b4dff; /* Roxo forte */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #call-to-action h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #call-to-action p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-secondary {
+    background-color: #6740cc; /* Roxo escuro */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5630b3;
+    transform: scale(1.05);
+  }
+  
+  /* Estilos da página Sobre */
+  #sobre {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #sobre h1 {
+    color: #7b4dff; /* Roxo forte */
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  #sobre p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  #sobre ul {
+    list-style: disc;
+    padding-left: 40px;
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
+  #sobre ul li {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Estilos do Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+
+  }
+  
+  footer a:hover {
+    text-decoration: none;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .feature {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feature {
+      width: 100%;
+    }
+    
+    #hero h1 {
+      font-size: 36px;
+    }
+  
+    #recursos h2, #call-to-action h2, #sobre h1 {
+      font-size: 28px;
+    }
+  }
+  
